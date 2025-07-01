@@ -18,6 +18,20 @@ return {
           },
         },
       },
+      inlay_hints = {
+        enabled = false,
+      },
+    },
+  },
+  {
+    "zbirenbaum/copilot.lua",
+    opts = {
+      suggestion = {
+        auto_trigger = false,
+        keymap = {
+          accept = "<M-l>",
+        },
+      },
     },
   },
 }

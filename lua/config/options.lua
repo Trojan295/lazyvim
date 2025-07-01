@@ -4,3 +4,4 @@
 
 vim.g.snacks_animate = false
 vim.opt.relativenumber = false
+vim.g.ai_cmp = false
