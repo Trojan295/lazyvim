@@ -2,6 +2,7 @@
   "extras": [
     "lazyvim.plugins.extras.ai.copilot",
     "lazyvim.plugins.extras.lang.go",
+    "lazyvim.plugins.extras.lang.helm",
     "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.svelte",
     "lazyvim.plugins.extras.lang.tailwind",
