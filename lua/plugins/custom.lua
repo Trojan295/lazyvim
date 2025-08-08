@@ -1,5 +1,13 @@
 return {
   {
+    "folke/snacks.nvim",
+    opts = {
+      explorer = {
+        enabled = false,
+      },
+    },
+  },
+  {
     "EdenEast/nightfox.nvim",
   },
   {
