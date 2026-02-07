@@ -19,13 +19,6 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
-      capabilities = {
-        workspace = {
-          didChangeWatchedFiles = {
-            dynamicRegistration = true,
-          },
-        },
-      },
       inlay_hints = {
         enabled = false,
       },
