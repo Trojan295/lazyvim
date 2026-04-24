@@ -5,3 +5,6 @@
 vim.g.snacks_animate = false
 vim.opt.relativenumber = false
 vim.g.ai_cmp = false
+vim.opt.statuscolumn = ""
+vim.opt.signcolumn = "yes:1"
+vim.opt.numberwidth = 1

@@ -8,12 +8,12 @@ return {
     },
   },
   {
-    "EdenEast/nightfox.nvim",
+    "rebelot/kanagawa.nvim",
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nightfox",
+      colorscheme = "kanagawa-wave",
     },
   },
   {
@@ -58,5 +58,19 @@ return {
       "stevearc/dressing.nvim", -- optional for vim.ui.select
     },
     config = true,
+  },
+  {
+    "yetone/avante.nvim",
+    opts = {
+      input = {
+        enabled = true,
+        provider = "snacks",
+      },
+      behaviour = {
+        auto_set_keymaps = true,
+      },
+    },
+    cmd = {},
+    keys = {},
   },
 }
