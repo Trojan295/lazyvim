@@ -34,17 +34,6 @@ return {
     },
   },
   {
-    "zbirenbaum/copilot.lua",
-    opts = {
-      suggestion = {
-        auto_trigger = false,
-        keymap = {
-          accept = "<M-l>",
-        },
-      },
-    },
-  },
-  {
     "lewis6991/gitsigns.nvim",
     opts = {
       current_line_blame = true,
@@ -58,19 +47,5 @@ return {
       "stevearc/dressing.nvim", -- optional for vim.ui.select
     },
     config = true,
-  },
-  {
-    "yetone/avante.nvim",
-    opts = {
-      input = {
-        enabled = true,
-        provider = "snacks",
-      },
-      behaviour = {
-        auto_set_keymaps = true,
-      },
-    },
-    cmd = {},
-    keys = {},
   },
 }
